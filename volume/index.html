@@ -1,0 +1,133 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>Volume</title>
+<!--<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Awweb to calculate the volume of 3D shapes">
+<meta name="author" content="Shubham">
+
+<link rel="stylesheet" href="./volume.css">
+</head>
+<body>
+<h1 id="mainh"> VOLUME CALCULATION</h1>
+
+
+<h3 class="volumeh"> Volume Of Cube </h3>
+<form class="volume" action = >
+<fieldset>
+<legend>Volume Of Cube</legend>
+
+<label>Enter Your Length : </label>
+<input type = "number"
+id = "lengthofcube" placeholder="length"  />
+<br>
+
+<input type = "button"
+value = "Calculate"
+onclick = "volumeofcube()"/>
+
+
+<input type = "text"
+id = "resultvolumeofcube" placeholder="Ans : Volume Of Cube" disabled="disabled" />
+<br>
+    <input type="reset" value="reset" >
+</fieldset>
+</form>
+ <h3 class="volumeh"> Volume Of Cuboid</h3>
+ <form class="volume" action = >
+ <fieldset>
+ <legend>Volume Of Cuboid</legend>
+ <label>Enter Your Length : </label>
+ <input type = "number"
+ id = "lengthofcubo" placeholder="length"  />
+ <br>
+ <label>Enter Your Breath :</label>
+ <input type = "number"
+ id = "breathofcubo" placeholder="breath"  />
+ <br>
+ <label>Enter Your Height :</label>
+ <input type = "number"
+ id = "heightofcubo" placeholder="height"   />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "volumeofcuboid()"/>
+ <input type = "text"
+ id = "cubovolume"  placeholder="Ans : Volume Of Cuboid" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+    
+ </fieldset>
+ </form>
+ <h3 class="volumeh"> Volume Of Cylinder</h3>
+ <form class="volume" action = >
+ <fieldset>
+ <legend>Volume Of Cylinder</legend>
+ <label>Enter Your Radius: </label>
+ <input type = "number"
+ id = "radiusofcyl" placeholder="radius"  />
+ <br>
+ <label>Enter Your Height :</label>
+ <input type = "number"
+ id = "heightofcyl" placeholder="height"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "volumeofcylinder()"/>
+ <input type = "text"
+ id = "cylvolume" placeholder="Ans : Volume Of Cylinder" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ <form>
+ <h3 class="volumeh"> Volume Of Cone</h3>
+ <fieldset>
+ <legend>Volume Of Cone</legend>
+ <label>Enter Your Radius : </label>
+ <input type = "number"
+ id = "radiusofcone" placeholder="radius"  />
+ <br>
+  <label>Enter Your Height :</label>
+ <input type = "number"
+ id = "heightofcone" placeholder="length"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "volumeofcone()"/>
+ <input type = "text"
+ id = "resultconevolume" placeholder="Ans : Volume Of Cone" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ <h3 class="volumeh"> Volume Of Sphere</h3>
+ <form class="volume" action = >
+ <fieldset>
+ <legend>Volume Of Sphere</legend>
+ <label>Enter Your Radius : </label>
+ <input type = "number"
+ id = "radiusofsphere" placeholder="radius"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "volumeofsphere()"/>
+ <input type = "text"
+ id = "resultspherevolume" placeholder="Ans : Volume Of Sphere" disabled="disabled" />
+ <br>
+ <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ 
+
+
+
+<script src="./volume.js" defer></script>
+</body>
+</html>
