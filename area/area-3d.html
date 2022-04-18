@@ -1,0 +1,157 @@
+<!DOCTYPE >
+<html>
+<head>
+<title></title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./area.css">
+</head>
+<body>
+<h1 id="mainh"> AREA OF SOLID</h1>
+<h3 class="areah"> Area Of Cube </h3>
+<form class="area" action = >
+<fieldset>
+
+<label>Enter Your Length : </label>
+<input type = "number"
+id = "lengthofcube" placeholder="length"  />
+<br>
+
+<input type = "button"
+value = "Calculate"
+onclick = "areaofcube()"/>
+
+
+<input type = "text"
+id = "resultareaofcube" placeholder="Ans : Area Of Cube" disabled="disabled" />
+<br>
+    <input type="reset" value="reset" >
+</fieldset>
+</form>
+ <h3 class="areah"> Area Of Cuboid</h3>
+ <form class="area" action = >
+ <fieldset>
+ <label>Enter Your Length : </label>
+ <input type = "number"
+ id = "lengthofcubo" placeholder="length"  />
+ <br>
+ <label>Enter Your Breath :</label>
+ <input type = "number"
+ id = "breathofcubo" placeholder="breath"  />
+ <br>
+ <label>Enter Your Height :</label>
+ <input type = "number"
+ id = "heightofcubo" placeholder="height"   />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "areaofcuboid()"/>
+ <input type = "text"
+ id = "cuboarea"  placeholder="Ans :" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+    
+ </fieldset>
+ </form>
+ <h3 class="areah"> Area Of Cylinder</h3>
+ <form class="area" action = >
+ <fieldset>
+ <label>Enter Your Radius: </label>
+ <input type = "number"
+ id = "radiusofcyl" placeholder="radius"  />
+ <br>
+ <label>Enter Your Height :</label>
+ <input type = "number"
+ id = "heightofcyl" placeholder="height"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "areaofcylinder()"/>
+ <input type = "text"
+ id = "cylarea" placeholder="Ans :" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ <h3 class="areah"> Area Of Cone</h3>
+ <form class="area" action = >
+ <fieldset>
+ <label>Enter Your Height : </label>
+ <input type="number"
+ id="heightofcone" placeholder="height" />
+ <br>
+  <label>Enter Your Radius :</label>
+ <input type = "number"
+ id = "radiusofcone1" placeholder="radius"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "slantheightofcone(),areaofcone()"/>
+ <input type = "text"
+ id = "resultslant" placeholder="Ans :" disabled="disabled" />
+ </fieldset>
+ 
+ 
+ <fieldset>
+ <label>Enter Your Radius : </label>
+ <input type = "number"
+ id = "radiusofcone" placeholder="radius"  />
+ <br>
+  <label>Enter Your Slant Height :</label>
+ <input type = "number"
+ id = "lengthofcone" placeholder="length"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "areaofcone()"/>
+ <input type = "text"
+ id = "resultconearea" placeholder="Ans :" disabled="disabled" />
+ <br>
+     <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ <h3 class="areah"> Area Of Sphere</h3>
+ <form class="area" action = >
+ <fieldset>
+ <label>Enter Your Radius : </label>
+ <input type = "number"
+ id = "radiusofsphere" placeholder="radius"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "areaofsphere()"/>
+ <input type = "text"
+ id = "resultspherearea" placeholder="Ans :" disabled="disabled" />
+ <br>
+ <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ <h3 class="areah"> Area Of Solid HemiSphere</h3>
+ <form class="area" action = >
+ <fieldset>
+ <label>Enter Your Radius : </label>
+ <input type = "number"
+ id = "radiusofhemisphere" placeholder="radius"  />
+ <br>
+ <input type = "button"
+ value = "Calculate"
+ onclick = "areaofhemisphere()"/>
+ <input type = "text"
+ id = "resulthemispherearea" placeholder="Ans :" disabled="disabled" />
+ <br>
+ <input type="reset" value="reset" >
+ </fieldset>
+ </form>
+ 
+ 
+ 
+ 
+ 
+
+
+<script src="./area.js"></script>
+</body>
+</html>
